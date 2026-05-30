@@ -33,23 +33,28 @@ cd f1-race-vibes
 # Open in your browser
 open index.html
 # or just double-click index.html
+```
+## Option 2: Download ZIP
 
-Option 2: Download ZIP
+```bash
 Click the green "Code" button above
 Select "Download ZIP"
 Extract the files
 Open index.html in your browser
 That's it! No npm install, no build process, just pure racing vibes.
+```
 
 🎮 Usage
 Click on driver cards to trigger interactive scale animations
 Hover over stat cards for smooth transform effects
 Watch the track as the F1 car races back and forth
 Enjoy the vibes as stats pulse every 5 seconds
+
 🛠️ Tech Stack
 HTML5 - Semantic markup and structure
 CSS3 - Advanced animations, Grid, Flexbox, gradients, and backdrop filters
 Vanilla JavaScript - DOM manipulation and interactive features
+
 Key CSS Features Used:
 CSS Grid & Flexbox for responsive layouts
 CSS Custom Properties (variables) for theming
@@ -57,11 +62,14 @@ Keyframe animations for smooth motion
 Backdrop filters for glassmorphism effects
 Gradient animations for dynamic text effects
 
+## Structure
+```
 f1-race-vibes/
 │
 ├── index.html          # Main HTML file with embedded styles and scripts
 ├── README.md           # You are here!
 └── screenshots/        # (Optional) Add your screenshots here
+```
 
 🌟 Features Breakdown
 1. Animated Header
@@ -87,6 +95,8 @@ Gradient background for atmosphere
 Glassmorphism effects on cards
 
 🤝 Contributing
+
+```
 Contributions are welcome! Here's how you can help:
 
 Fork the repository 2. Create a feature branch (git checkout -b feature/AmazingFeature)
@@ -101,6 +111,7 @@ Include constructor standings
 Add sound effects for interactions
 Create a lap time comparison chart
 Add real-time data integration via F1 API
+```
 
 🐛 Known Issues
 None at the moment! If you find any, please open an issue.
